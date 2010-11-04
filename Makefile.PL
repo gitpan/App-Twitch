@@ -18,10 +18,13 @@ my %WriteMakefileArgs = (
     'ExtUtils::MakeMaker' => '6.31'
   },
   'DISTNAME' => 'App-Twitch',
-  'EXE_FILES' => [],
+  'EXE_FILES' => [
+    'bin/twitch'
+  ],
   'LICENSE' => 'perl',
   'NAME' => 'App::Twitch',
   'PREREQ_PM' => {
+    'Cwd' => '0',
     'Data::Dumper' => '0',
     'DateTime' => '0',
     'IO::All' => '0',
@@ -41,7 +44,7 @@ my %WriteMakefileArgs = (
     'WWW::Shorten::Bitly' => '0',
     'utf8' => '0'
   },
-  'VERSION' => '0.002',
+  'VERSION' => '0.003',
   'test' => {
     'TESTS' => 't/*.t'
   }

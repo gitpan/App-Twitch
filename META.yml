@@ -14,6 +14,7 @@ meta-spec:
   version: 1.4
 name: App-Twitch
 requires:
+  Cwd: 0
   Data::Dumper: 0
   DateTime: 0
   IO::All: 0
@@ -35,7 +36,7 @@ requires:
 resources:
   homepage: http://github.com/Getty/p5-app-twitch/tree
   repository: git://github.com/Getty/p5-app-twitch.git
-version: 0.002
+version: 0.003
 x_Dist_Zilla:
   plugins:
     -
