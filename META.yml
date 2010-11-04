@@ -35,7 +35,7 @@ requires:
 resources:
   homepage: http://github.com/Getty/p5-app-twitch/tree
   repository: git://github.com/Getty/p5-app-twitch.git
-version: 0.001
+version: 0.002
 x_Dist_Zilla:
   plugins:
     -
@@ -193,5 +193,5 @@ x_Dist_Zilla:
   zilla:
     class: Dist::Zilla::Dist::Builder
     config:
-      is_trial: 1
+      is_trial: 0
     version: 4.102342
