@@ -1,7 +1,8 @@
 package App::Twitch;
-
-our $VERSION = '0.001';
-$VERSION = eval $VERSION;
+BEGIN {
+  $App::Twitch::VERSION = '0.001';
+}
+# ABSTRACT: Your personal Twitter b...... lalalala
 
 use MooseX::POE;
 
@@ -299,15 +300,17 @@ __PACKAGE__->meta->make_immutable;
 
 1;
 
-__END__
 
-package App::Twitch;
 
-1;
+=pod
 
 =head1 NAME
 
-App::Twitch - Your personal twitter b........ lalalalalala
+App::Twitch - Your personal Twitter b...... lalalala
+
+=head1 VERSION
+
+version 0.001
 
 =head1 SYNOPSIS
 
@@ -319,32 +322,29 @@ App::Twitch - Your personal twitter b........ lalalalalala
 Take it or leave it, so far just released for having it on CPAN. If you want provide docs, i would be happy. Also, 
 its just a tool, its not based on an intelligent or effective design and just is made for a specific requirement case.
 
-=head1 SUPPORT
+=head1 SEE ALSO
 
-No support given, issues still welcome on L<http://github.com/Getty/p5-app-twhore/issues>
+=over 4
 
-=head1 REPOSITORY
+=item *
 
-  http://github.com/Getty/p5-app-twhore
-  Pull request and additional contributors are welcome
+L<Net::Twitter>
+
+=back
 
 =head1 AUTHOR
 
-Torsten Raudssus <torsten@raudssus.de> L<http://www.raudssus.de/>
+Torsten Raudssus <torsten@raudssus.de>
 
-=head1 CONTRIBUTORS
+=head1 COPYRIGHT AND LICENSE
 
-L<perigrin|http://search.cpan.org/~perigrin/> suggested the name ;)
+This software is copyright (c) 2010 by Torsten Raudssus.
 
-Your name could be here.
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
-=head1 COPYRIGHT
+=cut
 
-Copyright (c) 2010 L<Raudssus Social Software|http://www.raudssus.de/> and all other contributors listed in this distribution.
 
-=head1 LICENSE
-
-This library is free software and may be distributed under the same terms
-as perl itself.
-
+__END__
 
