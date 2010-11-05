@@ -1,6 +1,6 @@
 package App::Twitch;
 BEGIN {
-  $App::Twitch::VERSION = '0.003';
+  $App::Twitch::VERSION = '0.004';
 }
 # ABSTRACT: Your personal Twitter b...... lalalala
 
@@ -21,7 +21,6 @@ use URI;
 use POSIX;
 use IO::All;
 use String::Truncate qw(elide);
-use Cwd;
 use utf8;
 
 # could be flexible, who cares.... ;)
@@ -296,7 +295,6 @@ sub twitter_update {
 	return 1;
 }
 
-
 sub shorten_text {
 	my ( $self, $text ) = @_;
 	# twitter 140, bit.ly 20, 1 space, 1 buffer
@@ -334,7 +332,7 @@ App::Twitch - Your personal Twitter b...... lalalala
 
 =head1 VERSION
 
-version 0.003
+version 0.004
 
 =head1 SYNOPSIS
 
@@ -374,11 +372,11 @@ L<MooseX::POE>
 
 =head1 AUTHOR
 
-Torsten Raudssus <torsten@raudssus.de>
+Torsten Raudssus <torsten@raudssus.de> L<http://www.raudssus.de/>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Torsten Raudssus.
+This software is copyright (c) 2010 by L<Raudssus Social Software|http://www.raudssus.de/>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

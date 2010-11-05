@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.31;
 
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'Your personal Twitter b...... lalalala',
-  'AUTHOR' => 'Torsten Raudssus <torsten@raudssus.de>',
+  'AUTHOR' => 'Torsten Raudssus <torsten@raudssus.de> L<http://www.raudssus.de/>',
   'BUILD_REQUIRES' => {
     'Test::More' => '0.96'
   },
@@ -24,8 +24,6 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'App::Twitch',
   'PREREQ_PM' => {
-    'Cwd' => '0',
-    'Data::Dumper' => '0',
     'DateTime' => '0',
     'IO::All' => '0',
     'JSON' => '0',
@@ -36,15 +34,13 @@ my %WriteMakefileArgs = (
     'Net::Twitter' => '0',
     'POE' => '0',
     'POE::Component::RSSAggregator' => '0',
-    'POSIX' => '0',
     'String::Truncate' => '0',
     'Text::Trim' => '0',
     'URI' => '0',
     'WWW::Shorten' => '0',
-    'WWW::Shorten::Bitly' => '0',
-    'utf8' => '0'
+    'WWW::Shorten::Bitly' => '0'
   },
-  'VERSION' => '0.003',
+  'VERSION' => '0.004',
   'test' => {
     'TESTS' => 't/*.t'
   }
