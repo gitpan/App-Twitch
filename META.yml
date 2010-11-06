@@ -23,7 +23,7 @@ requires:
   MooseX::POE: 0.208
   Net::Twitter: 0
   POE: 0
-  POE::Component::RSSAggregator: 0
+  POE::Component::FeedAggregator: 0
   String::Truncate: 0
   Text::Trim: 0
   URI: 0
@@ -32,7 +32,7 @@ requires:
 resources:
   homepage: http://github.com/Getty/p5-app-twitch/tree
   repository: git://github.com/Getty/p5-app-twitch.git
-version: 0.004
+version: 0.005
 x_Dist_Zilla:
   plugins:
     -

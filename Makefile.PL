@@ -33,14 +33,14 @@ my %WriteMakefileArgs = (
     'MooseX::POE' => '0.208',
     'Net::Twitter' => '0',
     'POE' => '0',
-    'POE::Component::RSSAggregator' => '0',
+    'POE::Component::FeedAggregator' => '0',
     'String::Truncate' => '0',
     'Text::Trim' => '0',
     'URI' => '0',
     'WWW::Shorten' => '0',
     'WWW::Shorten::Bitly' => '0'
   },
-  'VERSION' => '0.004',
+  'VERSION' => '0.005',
   'test' => {
     'TESTS' => 't/*.t'
   }

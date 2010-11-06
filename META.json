@@ -30,7 +30,7 @@
             "MooseX::POE" : "0.208",
             "Net::Twitter" : 0,
             "POE" : 0,
-            "POE::Component::RSSAggregator" : 0,
+            "POE::Component::FeedAggregator" : 0,
             "String::Truncate" : 0,
             "Text::Trim" : 0,
             "URI" : 0,
@@ -53,7 +53,7 @@
          "web" : "http://github.com/Getty/p5-app-twitch/tree"
       }
    },
-   "version" : "0.004",
+   "version" : "0.005",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
