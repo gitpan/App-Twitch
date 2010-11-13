@@ -30,7 +30,7 @@
             "MooseX::POE" : "0.208",
             "Net::Twitter" : 0,
             "POE" : 0,
-            "POE::Component::FeedAggregator" : 0,
+            "POE::Component::FeedAggregator" : "0.006",
             "String::Truncate" : 0,
             "Text::Trim" : 0,
             "URI" : 0,
@@ -53,7 +53,7 @@
          "web" : "http://github.com/Getty/p5-app-twitch/tree"
       }
    },
-   "version" : "0.005",
+   "version" : "0.006",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -187,6 +187,11 @@
             "class" : "Dist::Zilla::Plugin::GithubMeta",
             "name" : "@GETTY/GithubMeta",
             "version" : "0.10"
+         },
+         {
+            "class" : "Dist::Zilla::Plugin::LocalInstall",
+            "name" : "@GETTY/LocalInstall",
+            "version" : "0.001"
          },
          {
             "class" : "Dist::Zilla::Plugin::Prereqs",
