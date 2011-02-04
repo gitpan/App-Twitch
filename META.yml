@@ -43,7 +43,7 @@ requires:
 resources:
   homepage: http://github.com/Getty/p5-app-twitch/tree
   repository: git://github.com/Getty/p5-app-twitch.git
-version: 0.900
+version: 0.901
 x_Dist_Zilla:
   plugins:
     -
