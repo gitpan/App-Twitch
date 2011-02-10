@@ -40,7 +40,7 @@ my %WriteMakefileArgs = (
     'POE' => '1.294',
     'POE::Component::Client::HTTP' => '0.895',
     'POE::Component::Client::Keepalive' => '0.263',
-    'POE::Component::FeedAggregator' => '0.008',
+    'POE::Component::FeedAggregator' => '0.900',
     'POE::Component::WWW::Shorten' => '1.20',
     'String::Truncate' => '1.100570',
     'Text::Keywords' => '0.004',
@@ -51,7 +51,7 @@ my %WriteMakefileArgs = (
     'WWW::Shorten::Bitly' => '1.14',
     'YAML::LibYAML' => '0.34'
   },
-  'VERSION' => '0.901',
+  'VERSION' => '0.902',
   'test' => {
     'TESTS' => 't/*.t'
   }
