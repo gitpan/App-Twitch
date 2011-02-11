@@ -51,7 +51,7 @@ my %WriteMakefileArgs = (
     'WWW::Shorten::Bitly' => '1.14',
     'YAML::LibYAML' => '0.34'
   },
-  'VERSION' => '0.902',
+  'VERSION' => '0.903',
   'test' => {
     'TESTS' => 't/*.t'
   }

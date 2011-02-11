@@ -64,7 +64,7 @@
          "web" : "http://github.com/Getty/p5-app-twitch/tree"
       }
    },
-   "version" : "0.902",
+   "version" : "0.903",
    "x_Dist_Zilla" : {
       "plugins" : [
          {

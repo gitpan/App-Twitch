@@ -3,7 +3,7 @@ BEGIN {
   $App::Twitch::AUTHORITY = 'cpan:GETTY';
 }
 BEGIN {
-  $App::Twitch::VERSION = '0.902';
+  $App::Twitch::VERSION = '0.903';
 }
 # ABSTRACT: Your personal Twitter b...... lalalala
 
@@ -740,7 +740,7 @@ App::Twitch - Your personal Twitter b...... lalalala
 
 =head1 VERSION
 
-version 0.902
+version 0.903
 
 =head1 DESCRIPTION
 
