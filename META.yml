@@ -30,7 +30,7 @@ requires:
   POE: 1.294
   POE::Component::Client::HTTP: 0.895
   POE::Component::Client::Keepalive: 0.263
-  POE::Component::FeedAggregator: 0.900
+  POE::Component::FeedAggregator: 0.902
   POE::Component::WWW::Shorten: 1.20
   String::Truncate: 1.100570
   Text::Keywords: 0.004
@@ -43,7 +43,7 @@ requires:
 resources:
   homepage: http://github.com/Getty/p5-app-twitch/tree
   repository: git://github.com/Getty/p5-app-twitch.git
-version: 0.903
+version: 0.904
 x_Dist_Zilla:
   plugins:
     -
